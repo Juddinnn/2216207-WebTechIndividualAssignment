@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        RM1 CAMPAIGN
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="main-body">
+    <section class="header">
+        <div class="logo">
+            <img src="International_Islamic_University_Malaysia_logo.svg.png" class="logo">
+        </div>
+
+        <div class="content">
+            <h1>RM1 CAMPAIGN</h1>
+            <p>Let your contributions be</p>
+            <h2>PERPETUAL</h2>
+            <p>for the pleasure of Allah SWT</p>
+            <h3>“The example of those who spend their wealth in the
+                way of Allah is like a seed [of grain] which grows seven
+                spikes; in each spike is a hundred grains. And Allah
+                multiplies [His reward] for whom He wills. And Allah is
+                all-Encompassing and Knowing.”<br>
+                Al Baqarah: 261</h3>
+            <a href="#Find-out-more" class="details-btn">Find Out More</a>
+            <a href="#TheForm" class="form-btn">The Form</a>
+        </div>
+
+
+    </section>
+
+    <section class="details" id="Find-out-more">
+        <h1> Where To Find Us</h1>
+
+        <div class="detail">
+            <div class="detail-col">
+                <h2>Address</h2>
+                <p>IIUM ENDOWMENT FUND <br> Level 3 , Rectory <br>
+                    International Islamic University Malaysia<br> P.O. Box 10 <br>
+                    50728 Kuala Lumpur
+                </p>
+            </div>
+
+            <div class="report">
+                <img src="poster-recipient.jpeg" class="report">
+            </div>
+
+            <div class="detail-col">
+                <h2>Contact Us</h2>
+                <p>Tel :03 6196 4268 <br> Email: ief@iium.edu.my <br>
+                    Website : www.iium.edu.my/ief <br> Facebook : www.facebook.com/ief.official/
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="form" id="TheForm">
+
+        <h1> RM 1 Contribution Forms</h1>
+        <h2> PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</h2>
+
+        <div class="formbox">
+            <form>
+                <fieldset>
+                    <legend>Register</legend>
+                    <label for="username">
+                        <span>Name: <span aria-label="required">*</span></span>
+                        <input id="username" type="text" name="username" required pattern="^(?=.*[0-9])[a-zA-Z0-9]{8,}$"
+                            title="Username must contain at least 8 characters and include at least 1 number">
+                    </label><br><br>
+
+                    <label for="staffno">
+                        <span>Staff Number: <span aria-label="required">*</span></span>
+                        <input id="staffno" type="text" name="staffno" required pattern="[0-9]{7}"
+                            title="Staff Number have 7 digits and no others characters">
+                    </label><br><br>
+
+                    <label for="idnumber">
+                        <span>ID / Passport Number: <span aria-label="required">*</span></span>
+                        <input id="idnumber" type="text" name="idnumber" required pattern="[0-9]{12}"
+                            title="Please insert your IC number/Passport Number">
+                    </label><br><br>
+
+                    <label for="phone">
+                        <span>Contact No.: <span aria-label="required">*</span></span>
+                        <input id="phone" type="tel" name="Contact No" required pattern="[0-9]{10,11}"
+                            title="Phone number only have numbers,10-11 characters long.No dash required">
+                    </label><br><br>
+
+                    <label for="email">
+                        <span>Email: <span aria-label="required">*</span></span>
+                        <input id="email" type="email" name="Email" required
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Please give valid email">
+                    </label><br><br>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+
+                    <p style="margin-top: 20px; text-align: center; font-size: 12px; color: #888;">
+                        &copy; 2023 International Islamic University(IIUM). All rights reserved.
+                    </p>
+                    <br><br>
+
+
+
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
